@@ -1,0 +1,255 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	overflow-x: hidden;
+}
+.logo{
+	width: 100%;
+	height: 100%;
+}
+.nav-header li{
+	margin-right: 30px;
+}
+.nav-header a{
+	font: 500 12px/80px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #020a21;
+    padding: 0px;
+    display: inline-block;
+    font-size: 14px;
+    transition: color .7s;
+}
+.nav-header a:hover{
+	color: #0051d2;
+}
+.navbar{
+	background-color: #fff;
+}
+.section1{
+	height: 90vh;
+	width: 100%;
+	margin-top: 90px;
+	background-image: url("img/section1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	line-height: 30px;
+}
+.section1 h1{
+	font-size: 45px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+	padding-top: 150px;
+}
+.section1 p{
+	margin-bottom: 50px;
+}
+.btn-primary{
+	background-color: #0051d2;
+} 
+.btn-primary:hover{
+	background-color: #fff;
+	color: #0051d2;
+	border-color: #0051d2;
+}
+.btn-outline-primary{
+	color: #0051d2;
+	border-color: #0051d2;
+}
+.btn-outline-primary:hover{
+	background-color: #fff;
+	color: #0051d2;
+	/*border-color: #fff;*/
+}
+.Section2{
+	background-color: #0051d2;
+	width: 100%;
+	padding:50px 100px;
+}
+.Section2 .card{
+	padding: 10px 20px;
+}
+.Section2 h4{
+    color: #000;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+}
+.Section2 i{
+	color: #0051d2;
+    font-weight: normal;
+	margin-right: 10px;
+}
+.Section3 .row:first-child{
+
+	margin-top:100px;
+	margin-bottom: 100px;
+}
+.Section3 h1{
+	font-size: 45px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+}
+.sec3img{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	background-color: #F0F2F6;
+	margin:20px 20px;
+}
+.Section3 .card{
+	color: gray;
+}
+.Section3 h4{
+	color: #000;
+    font-family: "Playfair Display", serif;
+    border-top:1px solid gray;
+    padding-top: 15px;
+}
+.Section3 a{
+	color: gray;
+	transition: border-bottom .5s;
+}
+.Section3 a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #0051d2;
+	color: #0051d2;
+}
+.Section4{
+	width: 100%;
+	background-image: url("img/section4.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.Section4 h1,.Section5 h2{
+    color: #000;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+}
+.Section4 a{
+	color: gray;
+	transition: border-bottom .5s;
+}
+.Section4 .st-p{
+	color: #0051d2;
+	margin-bottom: 20px;
+}
+.Section4 a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #0051d2;
+	color: #0051d2;
+}
+.Section5{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.Section5 img{
+	height: 350px;
+	width: 100%;
+}
+.card-footer i{
+	font-size: 15px;
+	color: #797979;
+}
+.card-footer i{
+	display: inline-block;
+	margin-right: 7px;
+}
+.Qform{
+	margin-top: 100px;
+	padding: 50px;
+	border:1px solid #0051d2;
+	box-shadow: 0 0 36px 0 #797979;
+}
+.Section6{
+	width: 100%;
+	background-image: url("img/section6.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.Section6 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+.Section6 p{
+	margin: 20px 10px;
+}
+.Section6 h5,.Section7 h3,.Section8 h2{
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 50px;
+}
+.Section7{
+	width: 100%;
+	background-image: url("img/section7.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 100px;
+	line-height: 50px;
+}
+.Section8{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.Section8 img{
+	height: 200px;
+	width: 100%;
+}
+.Section8 a{
+	color: gray;
+	transition: border-bottom .5s;
+}
+.Section8 a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #0051d2;
+	color: #0051d2;
+}
+.Section9{
+	padding: 50px 0;
+	background-color: #f7f7f7;
+	line-height: 30px;
+}
+.Section9 h5{
+	font-weight: bold;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 20px;
+}
+.Section9 a,.Section9 p{
+	display: block;
+	color: #797979;
+	transition: color .5s;
+}
+.Section9 a:hover{
+	color: #0051d2;
+	text-decoration: underline;
+}
+footer{
+	padding: 20px 0;
+	background-color: #0051d2;
+	color: #fff;
+}
+footer a{
+	margin: 0 5px;
+	color: #fff;
+}
+/*Media Query*/
+@media only screen and (max-width: 1140px) {
+  .card{
+  	margin-bottom: 10px;
+  }
+}
